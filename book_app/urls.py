@@ -19,4 +19,5 @@ from book_app import views
 
 urlpatterns = [
     path('index/', views.index),
+    path('sefa_a/', views.safe_a),
 ]
