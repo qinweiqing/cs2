@@ -6,6 +6,7 @@ def index(request):
 def login(request):
     return HttpResponse("login")
 def safe_a(request):
+    print('输出A安全等级的算法')
     return HttpResponse("实现了A等级的安全级别")
 def sefa_b(request):
     return HttpResponse("实现了B等级的安全级别")
