@@ -5,3 +5,5 @@ def index(request):
     return HttpResponse("index")
 def login(request):
     return HttpResponse("login")
+def sefa_b(request):
+    return HttpResponse("实现了B等级的安全级别")

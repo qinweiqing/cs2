@@ -20,4 +20,5 @@ from book_app import views
 urlpatterns = [
     path('index/', views.index),
     path('login/', views.login),
+    path('sefa_b/', views.sefa_b),
 ]
