@@ -22,4 +22,5 @@ urlpatterns = [
     path('login/', views.login),
     path('sefa_a/', views.safe_a),
     path('sefa_b/', views.sefa_b),
+    path('reg/', views.reg),
 ]
